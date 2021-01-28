@@ -1,13 +1,78 @@
-.logotipo{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 24px;
-    
-    
-    
-}
 
 header{
-    background-color: black;
+    background-color: #000000;
     width: 100%;
-    color: white;
+   
 }
+.logotipo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-left: 6%;
+}
+.logotipo2{
+    color:#F8D930;
+    margin-left: 6%;
+    padding-bottom: 1%;
+}
+.menu{
+    margin-left: 60%;
+    padding-bottom:1%;
+    margin-top: -3%;
+    }
+
+.section1{
+position: relative;
+}
+.sao{
+   color: #ffffff;
+   text-decoration: none;
+   padding:6px;
+   margin: 1%;
+   
+}
+h2{
+position: absolute;
+left: 63%;
+top: 13.09%;
+color: #f5f5f5;
+
+font-style: normal;
+bottom: 43%;
+
+
+}
+.luz{
+    margin-top: 6%;
+    margin-left: 6%;
+}
+
+.trabalho{
+position: absolute;
+width: 393px;
+height: 109px;
+right: 62%;
+bottom: -51%;
+color: white;
+font-family: 'Open Sans', sans-serif;
+}
+.cola{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    color: white;
+
+
+
+}
+.centro{
+    width: 100%;
+}
+.demandas{
+    width: 100%;
+}
+.meio6{
+    width: 100%;
+}
+
+
