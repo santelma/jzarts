@@ -1,5 +1,6 @@
-$(document).ready(function){
-    $(".botao").on("click",function(){
-        $(",texto").slidetogle();
+$(document).ready(function () {
+    $('.porta').on("click", function (e) {
+        e.preventDefault();
+        $('.cabo1').slideToggle();
     });
-    });
+});

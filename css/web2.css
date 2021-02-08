@@ -1,13 +1,18 @@
 
+@media only screen and (min-width : 1024px){ 
+
+
 *{
     font-family: 'Open Sans', sans-serif;
     outline: none;
+
 }
 
 header{
-    background-color: #000000;
-    
+    background-color: #212121;
+    padding-bottom: 2%;
     width: 100%;
+    position: relative;
    
 }
 .logotipo{
@@ -20,16 +25,54 @@ header{
     margin-left: 6%;
     padding-bottom: 1%;
 }
-/* .menu{
+.cabo1{
+    
+    list-style: none;
+    position: absolute;
+    top: 51%;
+    left: 57%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+}
+.sao2{
+    margin-left: 2%;
+}
+.note3{
+    position: absolute;
+    left: 55%;
+    top: 32%;
+}
+.cabo{
+    display: none;
+}
+.botao3{
+    display: none;
+}
+.menu{
     margin-left: 60%;
     padding-bottom:1%;
     margin-top: -3%;
-} */
-.sao,.sao1{
+}
+.sao{
     text-decoration: none;
     color: #ffffff;
-  
-    font-size: 60px;
+    margin-left: 20px;
+  font-size: 15px;
+}
+.oculos{
+    position: absolute;
+    left: 418px;
+    top: 14px;
+    display: flex;
+}
+
+
+.sao1{
+    text-decoration: none;
+    color: #ffffff;
+  font-size: 15px;
+  margin-left: 27%;
 }
 .sao:hover{
     color: #F8D930;
@@ -43,24 +86,32 @@ header{
 .luz{
     margin-left: 6%;
     margin-top: 5%;
-    padding-bottom: 1%;
 } 
 h2{
-left: 63%;
-top: 13%;
-color: #f5f5f5;
+    left: 66%;
+    top: 26%;
+    color: #f5f5f5;
+    position: absolute;
+    font-size: 42px;
+    line-height: 66px;
+    font-weight: 300;
 }
 .trabalho{
-color: white;
+position: absolute;
+top: 26%;
+left: 20%;
 }
 .cola{
-    color: white;
-    font-size: 20px;
-    font-weight: 400;
+    position: absolute;
+    left: 4%;
+    top: 55%;
+    
 }
-.section2, .section3,  .paulo{
+.section1{
+    background-color: #212121;
+}
+.clientes5, .modelos4, .focada2, .section2, .section3, .section4, .paulo{
     position: relative;
-    width: 100%;
 }
 .centro,.demandas,.meio6{
     width: 100%;
@@ -76,38 +127,49 @@ color: white;
     right: 0%;
     font-size:52px;
     font-weight:400;
-
-}
-.class1{
-    padding: 30px;
-    height: 20%;
 }
 .section4{
-  
-    min-height: 400px;
+    display: flex;
+    flex-direction:row;
+    height: 400px;
+ 
 }
 .principal{
-   
+    position: absolute;
+    left: 103px;
+    top: 72px;
     font-weight: 600;
     font-size: 52px;
 }
 .logotipo4{
-  
+    position: absolute;
+    left: 5%;
+    top: 43%;
     font-weight: 600;
     font-size: 40px;
     color:#969696;
 }
+.section3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
 .voce{
- 
+    position: absolute;
+    left: 47%;
+    top: 15px;
     font-size: 52px;
     font-weight: 600;
+    padding-right:407px;
     margin-top: -20px;
     padding-left:69px;
     color: white;
-    margin-top: 42px;
-    
+    height: 492px;
 }
 .time{
+    position: absolute;
+    left: 50%;
+    top: 50%;
     font-size: 20px;
     font-weight: 400;
     color: white;
@@ -117,6 +179,7 @@ input, textarea{
     border-bottom: solid 1px; 
 }
 .section5{
+    margin-top: 87px;
     background-color:#f5f5f5;
 }
 footer{
@@ -124,14 +187,14 @@ footer{
 }
 
 .mente, .mente2{
-    /* display: flex;
-    flex-direction: row; */
+    display: flex;
+    flex-direction: row;
     background-color: #f5f5f5;
 }
 .brasil3{
-    margin-left: 103px;
-    /* font-size: 12px;
-    padding-top: 450px; */
+    margin-left: 66px;
+    font-size: 12px;
+    padding-top: 155px;
 }
 .mercado5{
     font-size: 12px;
@@ -140,18 +203,28 @@ footer{
     padding-top: 146px;
 }
 .tem1{
-    padding-top: 40px;
-}
-.trem3{
+    margin-left: 66px;
+    font-size: 12px;
     padding-top: 40px;
     padding-bottom: 14px;
 }
-/* .tela{ 
+.trem3{
+    margin-left: 66px;
+    font-size: 12px;
+    padding-top: 40px;
+    padding-bottom: 14px;
+}
+.tela{
+    position: absolute;
+    margin-top:-59px;
     margin-left: 103px;
-} */
+    font-size: 12px;
+}
 .projeto6{
-    width: 653px;
+    margin-left: 66px;
+    width:390px;
     background-color: #f5f5f5;
+    padding-bottom: 14px;
 }
 .caderno4{
     margin-left: 66px; 
@@ -160,16 +233,21 @@ footer{
 
 }
 .mouse{
+    margin-left: 88px;
+    width:364px;
     background-color: #f5f5f5;
 }
 .espaço{
+    margin-left: 103px;
     background-color: #f5f5f5;
+    margin-top: -122px;
 }
 .cel2{
-    /* position: absolute;
+    position: absolute;
     left: 5%;
+    top: 637%;
     width: 19px;
-    height: 19px; */
+    height: 19px;
     background: #f5f5f5;
 }
 button{
@@ -180,39 +258,41 @@ button{
     width: 251px;
     height: 35px;
     color: #212121;
+    top: 637%;
     font-weight: 700;
 }
-/* .receber{
+.receber{
     position: absolute;
     left: 7%;
     font-size: 12px;
-    top: 626%;
-} */
-/* .aqui3{
+    top: 638%;
+}
+.aqui3{
     position: absolute;
     left: 971px;
-    top: 563%;
+    top: 588%;
     font-size: 40px;
     color: #212121;
-} */
+}
 .teste1{
-    /* left: 74%;
-    top: 588%;
-    position: absolute; */
+    position: absolute;
+    left: 74%;
+    top: 610%;
     color: #212121;
 }
 .fone{
-    margin-left:-151px;
+    margin-left:231px;
     margin-top: 175px;
     margin-bottom: -27%;
 }
-.paulo{
-    background-color:#212121;
-    width: 100%;
-}
+ .paulo{
+  position: relative;
+ 
+ }
 .bra{
     position: absolute;
     color: #ffffff;
+    font-size: 18px;
     font-weight: 600%;
     left: 117px;
     top: 57px;
@@ -221,15 +301,33 @@ button{
 .rua{
     position: absolute;
     color: #ffffff;
+    font-size:11px;
+    left: 116px;
+    top: 99px;
+    height: 30px;
+    width: 104px;
 }
 .praça{
     position: absolute;
     color: #ffffff;
+    font-size: 11px;
+    left: 115px;
+    top: 148px;
+    height: 30px;
+    width: 102px;
 }
 .suzano2{
     position: absolute;
     left: 78%;
     top: 15%;
+}
+.sucesso{
+    color: #ffffff;
+    position: absolute;
+    top: 99px;
+    left: 502px;
+    font-weight: 600%;
+    font-size: 30px;
 }
 .gente{
     position: absolute;
@@ -239,24 +337,45 @@ button{
     font-size: 18px;
 
 }
-
-.cam, .book, .inst{
+.inst{
     position: absolute;
+    left: 6px;
+    top: 35px;
 }
-.top{
+.book{
+position: absolute;
+left: 47px;
+top: 35px;
+}
+.cam{
+    position: absolute;
+    left: 86px;
+    top: 39px;
+}
+/* .top{
     position: absolute;
     left: 1272px;
-    top: 440px; 
-}
+    top: 355px; 
+} */
 .uniao1{
     position: absolute;
     left: 1275px;
     top: 380px;
 }
 .porta{
-  
+    position: absolute;
+    top: 49.5%;
+    left: 43%;
+    text-align: center;
     color: #ffffff;
-    
+   
+}
+.sao11{
+    position: absolute;
+    top: -1.5%;
+    left: 57%;
+    text-align: center;
+    color: #ffffff;
 }
 .stop{
     position: absolute;
@@ -278,16 +397,15 @@ button{
     font-size: 14px;
 }
 .direito{
-  
+
     font-size: 14px;
-  
-  
+ 
 }
 
 .menu1{
     display: none;
 }
-
+}
 
 
 
